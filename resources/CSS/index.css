@@ -5,12 +5,14 @@ body {
   padding: 0px;
 }
 
+/*setting universal text values  */
+
 .container {
-  margin: 0px;
-  padding:0px;
+  font-family:"Helvetica";
+  font-size:23px;
+  color:seashell;
+  opacity: 0.9;
 }
-
-
 
 /*  navigation bar*/
 
@@ -61,4 +63,48 @@ body {
   opacity: 0.9;
   margin: 0px 5px;
   text-align: center;
+}
+
+/* mission section */
+
+/* setting container values */
+
+.main_container {
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
+  background-color: black;
+}
+
+.mission {
+  background-image:url('../img/img-mission-background.jpg');
+  height: 700px;
+  width:1200px;
+  display:flex;
+  flex direction:row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.mission_text {
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  align-items:center;
+  background-color:black;
+  width:inherit;
+  color:seashell;
+  text-align:center;
+}
+
+.mission_text h4 {
+  margin:0;
+  padding:10px;
+}
+
+.mission_text h2 {
+  margin:0;
+  padding:10px;
 }
