@@ -108,12 +108,14 @@ body {
 
 /*  Tea of the day section*/
 
+/* Tea of the day -title  */
+
 .totm {
   display:flex;
   flex-direction:column;
   justify-content:center;
-  align-items: flex-start;
-  width:inherit;
+  align-items: center;
+  width:1000px;
 }
 
 .totm_text {
@@ -126,4 +128,26 @@ body {
 .totm_text h4, .totm_text h2 {
   margin:0;
   padding:10px;
+}
+
+/* Tea of the day -first row  */
+
+.totm_row {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  align-items:center;
+  width:100%;
+}
+
+.totm_row_item img{
+  height:200px;
+  width:300px;
+}
+
+.totm_row_item {
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
 }
