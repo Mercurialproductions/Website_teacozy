@@ -12,6 +12,7 @@ body {
   font-size:23px;
   color:seashell;
   opacity: 0.9;
+  background-color: black;
 }
 
 /*  navigation bar*/
@@ -99,12 +100,30 @@ body {
   text-align:center;
 }
 
-.mission_text h4 {
+.mission_text h4, .mission_text h2 {
   margin:0;
   padding:10px;
 }
 
-.mission_text h2 {
+
+/*  Tea of the day section*/
+
+.totm {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items: flex-start;
+  width:inherit;
+}
+
+.totm_text {
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
+}
+
+.totm_text h4, .totm_text h2 {
   margin:0;
   padding:10px;
 }
